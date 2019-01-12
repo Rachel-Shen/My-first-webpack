@@ -1,0 +1,227 @@
+@import '../../css/index.less';
+@import '../../css/iconfont.css';
+
+/*global changes css*/
+body > .header .logo {
+  width: 258px;
+}
+.navbar-static-top {
+  background-color: #fff;
+  border-bottom: 1px solid #E6E6E6;
+}
+.dropdown .riot {
+  color: #333;
+}
+.left-side {
+  width : 258px;
+}
+.sidebar {
+  width : 258px;
+}
+.right-side {
+  margin-left : 258px;
+  padding: 80px 0 10px 15px;
+}
+.navbar-btn {
+  margin-top: 22px;
+}
+.navbar-btn span.iconfont{
+  font-size: 24px;
+}
+.dropdown-menu li cite{
+  line-height: 50px;
+}
+.navbar-left {
+  display: flex;
+  margin: 0;
+}
+.navbar-left span.iconfont {
+  font-size: 16px;
+}
+.pc .navbar-item:nth-child(3) span.iconfont {
+  font-size: 17px;
+}
+.pc .navbar-item:last-child span.iconfont {
+  font-size: 17px;
+}
+.pc .navbar-item:nth-last-child(2) span.iconfont {
+  font-size: 17px;
+}
+.navbar-left.mobile{
+  padding-left: 20px;
+  margin: 0;
+  float: left;
+  width: 120px;
+}
+.navbar-left.pc li {
+  margin-right: 46px;
+}
+.navbar-left li cite {
+  font-size: 16px;
+  color: #333333;
+  line-height: 76px;
+}
+.mobile {
+  display: none;
+}
+.pc .navbar-item:hover {
+  border-bottom: 2px solid #FF7A2A;
+}
+.pc .navbar-item:hover a cite{
+  color: #FF7A2A;
+}
+.pc .navbar-item:hover span.iconfont{
+  color: #FF7A2A;
+}
+.pc .navbar-item.navbar-item-this{
+  border-bottom: 2px solid #F47528;
+}
+.pc .navbar-item.navbar-item-this span.iconfont {
+  color: #F47528;
+}
+.pc .navbar-item.navbar-item-this a cite{
+  color: #FF7A2A;
+}
+.mobile .navbar-child {
+  background-color: #ffffff;
+  display: none;
+  position: absolute;
+  width: 110px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.12);
+  border: 1px solid #d2d2d2;
+  z-index: 100;
+  border-radius: 2px;
+}
+.mobile .navbar-child.navbar-show {
+  display: block;
+}
+.mobile .navbar-child dd {
+  text-align: center;
+}
+.mobile .navbar-child dd cite {
+  line-height: 50px;
+}
+.mobile dd.navbar-item-this {
+  background-color: #F4F6F9;
+  color: #FF7A2A;
+}
+.mobile dd.navbar-item-this cite{
+  color: #FF7A2A;
+}
+.navBar cite {
+  line-height: 50px;
+  font-size: 14px;
+}
+.navBar li.navbar-item {
+  cursor: pointer;
+}
+.navBar li.navbar-item a{
+  padding: 0 30px;
+}
+.navBar li.navbar-item span.iconfont{
+  font-size: 14px;
+  float: right;
+  line-height: 48px;
+}
+.navBar li.navbar-item span.disabled {
+  display: none;
+}
+.navBar li.navbar-item .navbar-child {
+  display: none;
+}
+.navBar li.navbar-item.navbar-itemed .navbar-child {
+  display: block;
+  margin-bottom: 0;
+}
+.navBar li.navbar-item .navbar-child a{
+  padding: 0 60px;
+}
+.navBar .navbar-item.navbar-item-this, .navBar .navbar-child dd.navbar-item-this{
+  background-color: #F4F6F9;
+  border-right: 2px solid #F47528;
+}
+.navBar .navbar-item.navbar-item-this a cite, .navBar .navbar-child dd.navbar-item-this a cite{
+  color: #FF7A2A;
+}
+.navBar .navbar-child dd:hover {
+  background-color: #F4F6F9;
+}
+.content {
+  position: relative;
+  overflow: hidden;
+  iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: none;
+    display:block;
+  }
+}
+.navbar-right > .navbar-nav {
+  padding: 0;
+}
+@media screen and (max-width : 1638px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (min-width : 992px) {
+  /*Right side strech mode*/
+  .right-side.strech {
+    margin-left : 0;
+  }
+  /* Left side collapse */
+  .left-side.collapse-left {
+    left : -258px;
+  }
+}
+
+@media screen and (max-width : 992px) {
+  .pc {
+    display: none;
+  }
+  .row-offcanvas-left {
+    left : 258px;
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left : -258px;
+  }
+  /*Give content full width on xs screens*/
+  .right-side {
+    margin-left : 0;
+  }
+}
+
+
+/*media queries*/
+
+@media screen and (max-width : 360px) {
+  .main-chart .panel-tabs .nav-tabs > li {
+    width : 120px;
+  }
+}
+@media screen and (max-width : 560px) {
+  .right-side {
+    padding : 155px 15px 10px 15px;
+  }
+  body > .header .logo, body > .header .navbar {
+    width : 100%;
+  }
+  .left-side {
+    top : 155px;
+  }
+}
+@media screen and (max-width : 767px) {
+  .personal-chat .header-elements .status:after {
+    top : 39px;
+  }
+}
+@media screen and (min-width : 767px) {
+  .left-side {
+    top : 80px;
+  }
+}
+

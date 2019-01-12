@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+  <link rel="stylesheet" href="https://static.yhb118.com/yhb_admin_web/common_core/css/bootstrap.min.css">
+</head>
+<body class="skin-default">
+  <header class="header">
+    <nav class="navbar navbar-static-top" role="navigation">
+      <a href="index.html" class="logo">
+        <img src="../../images/logo.png" alt="logo"/>
+      </a>
+      <div>
+        <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="iconfont icon-santiaoxian"></span>
+        </a>
+      </div>
+
+      <ul class="navbar-left mobile">
+        <li class="navbar-item" data-menu="contentManagement">
+          <a href="javascript:;"><cite>后台管理系统</cite></a>
+          <dl class="navbar-child">
+            <dd class="navbar-item-this" data-menu="index"><span class="iconfont icon-shouye"></span><a href="javascript:;"><cite>首页</cite></a></dd>
+            <dd data-menu="borrowingManagement"><span class="iconfont icon-jiedai1"></span><a href="javascript:;"><cite>借贷管理</cite></a></dd>
+            <dd data-menu="businessManagement"><span class="iconfont icon-shanghuguanli"></span><a href="javascript:;"><cite>商户管理</cite></a></dd>
+            <dd data-menu="moneyManagement"><span class="iconfont icon-zijinguanli"></span><a href="javascript:;"><cite>资金管理</cite></a></dd>
+            <dd data-menu="databaseManagement"><span class="iconfont icon-shujutongji1"></span><a href="javascript:;"><cite>数据管理</cite></a></dd>
+            <dd data-menu="departmentManagement"><span class="iconfont icon-suyaniconchanpinleibufenzuodaohangbufen87"></span><a href="javascript:;"><cite>部门管理</cite></a></dd>
+            <dd data-menu="webSetting"><span class="iconfont icon-shengchengqianduanticeneirong"></span><a href="javascript:;"><cite>前端设置</cite></a></dd>
+            <dd data-menu="marketingPromotion"><span class="iconfont icon-APP-"></span><a href="javascript:;"><cite>营销推广</cite></a></dd>
+            <dd data-menu="systemSettings"><span class="iconfont icon-xitongshezhi"></span><a href="javascript:;"><cite>系统设置</cite></a></dd>
+          </dl>
+        </li>
+      </ul>
+
+      <ul class="navbar-left pc">
+        <li class="navbar-item navbar-item-this" data-menu="index">
+          <span class="iconfont icon-shouye"></span><a href="javascript:;"><cite>首页</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="borrowingManagement">
+          <span class="iconfont icon-jiedai1"></span><a href="javascript:;"><cite>借贷管理</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="businessManagement">
+          <span class="iconfont icon-shanghuguanli"></span><a href="javascript:;"><cite>商户管理</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="moneyManagement">
+          <span class="iconfont icon-zijinguanli"></span><a href="javascript:;"><cite>资金管理</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="databaseManagement">
+          <span class="iconfont icon-shujutongji1"></span><a href="javascript:;"><cite>数据管理</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="departmentManagement">
+          <span class="iconfont icon-suyaniconchanpinleibufenzuodaohangbufen87"></span><a href="javascript:;"><cite>部门管理</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="webSetting">
+          <span class="iconfont icon-shengchengqianduanticeneirong"></span><a href="javascript:;"><cite>前端设置</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="marketingPromotion">
+          <span class="iconfont icon-APP-"></span><a href="javascript:;"><cite>营销推广</cite></a>
+        </li>
+        <li class="navbar-item" data-menu="systemSettings">
+          <span class="iconfont icon-xitongshezhi"></span><a href="javascript:;"><cite>系统设置</cite></a>
+        </li>
+      </ul>
+
+      <div class="navbar-right">
+        <ul class="navbar-nav">
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown">
+              <img src="../../images/avatar1.jpg" width="35" class="img-circle img-responsive pull-left" height="35" alt="User Image">
+              <div class="riot">
+                <div>
+                  Addison
+                  <span><i class="caret"></i></span>
+                </div>
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="javascript:;" data-url="page/user/userInfo.html"><cite>官网首页</cite></a>
+              </li>
+              <li>
+                <a href="javascript:;" class="showNotice"><cite>后台地图</cite></a>
+              </li>
+              <li>
+                <a href="javascript:;" data-url="page/user/changePwd.html"><cite>修改密码</cite></a>
+              </li>
+              <li>
+                <a href="page/login/login.html" class="signOut"><cite>退出</cite></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="wrapper row-offcanvas row-offcanvas-left">
+    <aside class="left-side sidebar-offcanvas">
+      <section class="sidebar">
+        <div class="navbar-side">
+          <div class="navBar" id="navBar">
+            <ul class="nav">
+              <li class="navbar-item navbar-itemed">
+                <a href="javascript:;" data-url="./browser.html"><cite>后台首页</cite></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </aside>
+    <aside class="right-side">
+      <section class="content">
+        <iframe src="./browser.html"></iframe>
+      </section>
+    </aside>
+  </div>
+
+<script src="https://static.yhb118.com/yhb_admin_web/common_core/js/jquery-3.1.1.min.js"></script>
+<script src="https://static.yhb118.com/yhb_admin_web/common_core/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+

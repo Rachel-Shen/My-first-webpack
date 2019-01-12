@@ -1,0 +1,334 @@
+html {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  transition: all .25s ease-out;
+  font-size: small; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  transition: all .25s ease-out;
+  font-size: small;
+  letter-spacing: 0.5px; }
+
+ul {
+  list-style: none; }
+
+p {
+  line-height: 20px; }
+
+
+/******  3.HEADER STYLES   ******/
+body > .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+  height: 80px;
+}
+
+body > .header .logo {
+  display: block;
+  float: left;
+  height: 78px;
+  line-height: 72px;
+  padding: 3px 10px;
+  text-align: center;
+  width: 251px;
+  background-color: #fff; }
+
+body > .header .logo .icon {
+  margin-right: 10px; }
+
+.dropdown-menu {
+  min-width: 130px;
+}
+/*rightside bar tabs ends*/
+/******* 3.2 HEADER LEFT ******/
+/*side bar nav */
+.sidebar {
+  display: block;
+  float: left;
+  width: 250px; }
+
+.left-side {
+  background: #FFF;
+  box-shadow: 0 0 15px #EEE; }
+
+.skin-default .sidebar a {
+  color: #808B9C;
+  -webkit-font-smoothing: antialiased; }
+
+/* Add fade animation to dropdown menus */
+.open > .dropdown-menu {
+  animation-name: fadeAnimation;
+  animation-duration: .7s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: fadeAnimation;
+  -webkit-animation-duration: .7s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: fadeAnimation;
+  -moz-animation-duration: .7s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards; }
+
+@keyframes fadeAnimation {
+  from {
+    opacity: 0;
+    top: 120%; }
+  to {
+    opacity: 1;
+    top: 100%; } }
+
+.riot {
+  color: #FFF;
+  padding: 7px 0 5px 45px; }
+
+/**** END HEADER RIGHT SIDE DROPDOWNS ****/
+/****** 4.LEFT SIDEBAR ******/
+.left-side {
+  position: absolute;
+  width: 250px; }
+
+li.active a,a:hover,a {
+  text-decoration: none !important; }
+
+/******* END LEFT SIDEBAR *****/
+/********* 5. MAIN WRAPPER STYLES *********/
+.wrapper:before,
+.wrapper:after {
+  display: table;
+  content: " "; }
+
+.wrapper:after {
+  clear: both; }
+
+/********* END MAIN WRAPPER STYLES *********/
+/********* 6. LEFT MENU COLLAPSE STYLES *********/
+body > .header .navbar .sidebar-toggle {
+  float: left;
+  color: #333;
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 10px; }
+
+body > .header .navbar .sidebar-toggle i {
+  vertical-align: middle; }
+
+.navbar-right {
+  margin-right: 10px;
+  margin-top: 22px;
+}
+
+/*image-magnifier*/
+.img_height {
+  height: 200px; }
+
+/* layout css ends*/
+/**** 8.MEDIA QUERIES ****/
+@media screen and (min-width: 993px) {
+  .left-side {
+    top: 80px; }
+  /*Right side strech mode*/
+  .right-side.strech {
+    margin-left: 0; }
+  /* Left side collapse */
+  .left-side.collapse-left {
+    left: -250px; } }
+
+/*Give content full width on xs screens*/
+@media screen and (max-width: 992px) {
+  .right-side {
+    margin-left: 0; }
+  #menu {
+    padding-top: 54px; } }
+
+/*======pull modal below the fixed header=======*/
+@media screen and (min-width: 768px) {
+  .modal-dialog {
+    margin: 70px auto; } }
+
+@media screen and (max-width: 560px) {
+  .right-side {
+    padding: 107px 10px 10px 10px; }
+  .modal-dialog {
+    margin: 115px 10px; } }
+
+/*
+* Off Canvas
+* --------------------------------------------------
+*  Gives us the push menu effect
+*/
+@media screen and (max-width: 992px) {
+  .relative {
+    position: relative; }
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -250px; }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -250px; }
+  .row-offcanvas-right {
+    right: 250px; }
+  .row-offcanvas-left {
+    left: 250px; }
+  .sidebar-offcanvas {
+    left: 0; }
+  body.fixed .sidebar-offcanvas {
+    margin-top: 50px;
+    left: -250px; }
+  body.fixed .row-offcanvas-left .navbar {
+    left: 250px;
+    right: 0; }
+  body.fixed .row-offcanvas-left .sidebar-offcanvas {
+    left: 0; } }
+
+@media screen and (max-width: 767px) {
+  .right-side > .content-header > .breadcrumb {
+    position: relative;
+    margin-top: 5px;
+    top: 0;
+    right: 0;
+    float: none; }
+  .navbar .navbar-nav > li {
+    float: left; }
+  .navbar-nav {
+    margin: 0;
+    float: left; }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px; }
+  .navbar .navbar-right {
+    float: right; }
+  body > .header .navbar {
+    padding-left: 19px;
+    padding-right: 19px; } }
+
+/* Fix dropdown menu for small screens to display correctly on small screens */
+@media screen and (max-width: 767px) {
+  .navbar-nav > .user-menu > .dropdown-menu,
+  .navbar-nav > .messages-menu > .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: -120px;
+    left: auto;
+    background: #FFFFFF; }
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    right: 0;
+    left: auto;
+  }
+  .navbar-nav > .user-menu > .dropdown-menu {
+    right: 0; }
+  .navbar-nav .user-menu .dropdown-menu > li > a {
+    padding: 3px 20px; }
+  .navbar-right .nav > li > a {
+    padding: 10px 12px; } }
+
+/* Fix menu positions on xs screens to appear correctly and fully */
+@media screen and (min-width: 550px) {
+  .skin-default .navbar .navbar-right > .navbar-nav {
+    margin-right: 30px; } }
+
+@media screen and (max-width: 560px) {
+  .rightsidebar-right .rightsidebar-right-content {
+    padding-top: 105px; }
+  .rightslider-p-t-small {
+    padding-top: 51px !important; }
+  #menu {
+    padding-top: 104px; } }
+
+@media screen and (max-width: 480px) {
+  .navbar-nav > .messages-menu > .dropdown-menu > li.header:after {
+    border-width: 0; }
+  .navbar-nav > .messages-menu > .dropdown-menu {
+    position: absolute;
+    right: -190px;
+    left: auto; } }
+
+@media screen and (max-width: 560px) {
+  body > .header {
+    position: fixed; }
+  body > .header .logo,
+  body > .header .navbar {
+    width: 100%;
+    float: none;
+    position: relative;
+    height: initial; }
+  body > .header .navbar {
+    margin: 0; }
+  body.fixed > .header {
+    position: fixed; }
+  body.fixed > .wrapper,
+  body.fixed .sidebar-offcanvas {
+    margin-top: 100px; } }
+
+@media screen and (max-width: 350px) {
+  .navbar-nav > .messages-menu > .dropdown-menu {
+    right: -207px; } }
+
+@media screen and (max-width: 360px) {
+  #right .nav-tabs > li {
+    width: 89px; } }
+
+@media (min-width: 768px) {
+  body.boxed,
+  body.boxed .Footer,
+  body.boxed .navbar.navbar-fixed-top {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media (min-width: 1024px) {
+  body.boxed,
+  body.boxed .Footer,
+  body.boxed .navbar.navbar-fixed-top {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media (min-width: 1200px) {
+  body.boxed,
+  body.boxed .Footer,
+  body.boxed .navbar.navbar-fixed-top {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+  #menu .menu-dropdown > ul,
+  #menu .menu-dropdown-open-ul {
+    margin-top: -1px; } }
+
+/****** END MEDIA QUERIES ****/
+/****** 9.PRELOADER ****/
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100001;
+  backface-visibility: hidden;
+  background: #FFFFFF; }
+
+.loader_img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-position: center;
+  margin: -25px 0 0 -25px; }
+
+/****** END PRELOADER ****/
+
+
+

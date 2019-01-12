@@ -1,0 +1,1243 @@
+{
+    "index": [
+      {
+        "title": "首页",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "首页看板",
+            "icon": "&#xe61c;",
+            "href": "pages/homePages/home/board/board.html",
+            "spread": false
+          },
+          {
+            "title": "借款统计",
+            "icon": "&#xe609;",
+            "href": "pages/homePages/home/borrowStatistics/borrowStatistics.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "日志",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "系统日志",
+            "icon": "&#xe61c;",
+            "href": "pages/homePages/logo/systemLogo.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "borrowingManagement": [
+      {
+        "title": "贷款管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "全部贷款",
+            "icon": "&#xe61c;",
+            "href": "pages/borrowingManagement/borrowManagement/allBorrow/allBorrow.html",
+            "spread": false
+          },
+          {
+            "title": "发布贷款",
+            "icon": "&#xe609;",
+            "href": "pages/borrowingManagement/borrowManagement/issueBorrow/issueBorrow.html",
+            "spread": false
+          },
+          {
+            "title": "即将到期贷款",
+            "icon": "&#xe609;",
+            "href": "pages/borrowingManagement/borrowManagement/duesoonBorrow/duesoonBorrow.html",
+            "spread": false
+          },
+          {
+            "title": "还款中贷款",
+            "icon": "&#xe609;",
+            "href": "pages/borrowingManagement/borrowManagement/paymentBorrow/paymentBorrow.html",
+            "spread": false
+          },
+          {
+            "title": "已完成贷款",
+            "icon": "&#xe609;",
+            "href": "pages/borrowingManagement/borrowManagement/completedBorrow/completedBorrow.html",
+            "spread": false
+          },
+          {
+            "title": "贷款回收站",
+            "icon": "&#xe609;",
+            "href": " pages/borrowingManagement/borrowManagement/borrowRecycle/borrowRecycle.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "投标信息",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "所有投标",
+            "icon": "&#xe61c;",
+            "href": "pages/borrowingManagement/bidInfo/allInfo/allInfo.html",
+            "spread": false
+          },
+          {
+            "title": "富友投标",
+            "icon": "&#xe609;",
+            "href": "pages/borrowingManagement/bidInfo/fullBid/fullBid.html",
+            "spread": false
+          },
+          {
+            "title": "环讯投标",
+            "icon": "&#xe609;",
+            "href": " pages/borrowingManagement/bidInfo/ipsBid/ipsBid.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "转出管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "转出申请",
+            "icon": "&#xe61c;",
+            "href": "pages/borrowingManagement/turnoutManagement/turnoutApply/turnoutApply.html",
+            "spread": false
+          },
+          {
+            "title": "转出列表",
+            "icon": "&#xe609;",
+            "href": "pages/borrowingManagement/turnoutManagement/applyList/applyList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "活期宝",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "账户列表",
+            "icon": "&#xe61c;",
+            "href": "pages/borrowingManagement/currentTreasure/usercountList.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "businessManagement": [
+      {
+        "title": "商户列表",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "个人商户",
+            "icon": "&#xe61c;",
+            "href": "pages/businessManagement/merchantList/personMerchant/personMerchant.html",
+            "spread": false
+          },
+          {
+            "title": "企业商户",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/merchantList/businessMerchant/businessMerchant.html",
+            "spread": false
+          },
+          {
+            "title": "推广人列表",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/merchantList/extensionworkerInfo/extensionworkerInfo.html",
+            "spread": false
+          },
+          {
+            "title": "黑名单",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/merchantList/blacklist/blacklist.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "理财师",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "理财师申请列表",
+            "icon": "&#xe61c;",
+            "href": "pages/businessManagement/financialPlanner/financialPlannerApplyList/financialPlannerApplyList.html",
+            "spread": false
+          },
+          {
+            "title": "理财师升降级日志",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/financialPlanner/financialPlannerOperateLogo/financialPlannerOperateLogo.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "商户信息",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "个人商户信息",
+            "icon": "&#xe61c;",
+            "href": "pages/businessManagement/merchantInfo/personMerchantInfo/personMerchantInfo.html",
+            "spread": false
+          },
+          {
+            "title": "企业商户信息",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/merchantInfo/businessMerchantInfo/businessMerchantInfo.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "会员信息",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "会员列表",
+            "icon": "&#xe61c;",
+            "href": "pages/businessManagement/memberInfo/memberList/memberList.html",
+            "spread": false
+          },
+          {
+            "title": "保险记录",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/memberInfo/insuranceRecords/insuranceRecords.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "银行卡信息",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "银行卡列表",
+            "icon": "&#xe61c;",
+            "href": "pages/businessManagement/bankInfo/bankList/bankList.html",
+            "spread": false
+          },
+          {
+            "title": "绑卡日志",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/bankInfo/tiedcardLogo/tiedcardLogo.html",
+            "spread": false
+          },
+          {
+            "title": "换卡审核",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/bankInfo/changecardCheck/changecardCheck.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "风控管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "风评管理",
+            "icon": "&#xe61c;",
+            "href": "pages/businessManagement/riskManagement/riskManagement/riskManagement.html",
+            "spread": false
+          },
+          {
+            "title": "风评记录",
+            "icon": "&#xe609;",
+            "href": "pages/businessManagement/riskManagement/riskRecord/riskRecord.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "moneyManagement": [
+      {
+        "title": "充值管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "充值明细",
+            "icon": "&#xe61c;",
+            "href": "pages/moneyManagement/rechargeManagement/rechangeDetail/rechangeDetail.html",
+            "spread": false
+          },
+          {
+            "title": "已收款",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/rechargeManagement/hasReceived/hasReceived.html",
+            "spread": false
+          },
+          {
+            "title": "待收款",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/rechargeManagement/aboutReceived/aboutReceived.html",
+            "spread": false
+          },
+          {
+            "title": "回收站",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/rechargeManagement/recyclein/recyclein.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "提现管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "提现申请",
+            "icon": "&#xe61c;",
+            "href": "pages/moneyManagement/withdrawManagement/withdrawApply/withdrawApply.html",
+            "spread": false
+          },
+          {
+            "title": "等待支付",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/withdrawManagement/waitforPayment/waitforPayment.html",
+            "spread": false
+          },
+          {
+            "title": "提现列表",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/withdrawManagement/withdrawList/withdrawList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "资金日志",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "产品收益",
+            "icon": "&#xe61c;",
+            "href": "pages/moneyManagement/cashLog/productYield/productYield.html",
+            "spread": false
+          },
+          {
+            "title": "红包收益",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/redenvelopEarnings/redenvelopEarnings.html",
+            "spread": false
+          },
+          {
+            "title": "加息券收益",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/interestrateoupons/interestrateoupons.html",
+            "spread": false
+          },
+          {
+            "title": "体验金收益",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/experientialRevenue/experientialRevenue.html",
+            "spread": false
+          },
+          {
+            "title": "分享金收益",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/sharingfinancialBenefit/sharingfinancialBenefit.html",
+            "spread": false
+          },
+          {
+            "title": "赎回手续费",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/redemptionPrice/redemptionPrice.html",
+            "spread": false
+          },
+          {
+            "title": "提现手续费",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/withdrawPrice/withdrawPrice.html",
+            "spread": false
+          },
+          {
+            "title": "购买保险",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/purchaseInsurance/purchaseInsurance.html",
+            "spread": false
+          },
+          {
+            "title": "活期宝收益",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/cashLog/currentTreasureIncome/currentTreasureIncome.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "福利收益",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "邀请绑卡奖励",
+            "icon": "&#xe61c;",
+            "href": "pages/moneyManagement/welfareBenefits/invitationcardtiedeward/invitationcardtiedeward.html",
+            "spread": false
+          },
+          {
+            "title": "每日分享",
+            "icon": "&#xe609;",
+            "href": "pages/moneyManagement/welfareBenefits/dailyShare/dailyShare.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "活期宝",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "转入转出明细",
+            "icon": "&#xe61c;",
+            "href": "pages/moneyManagement/currentTreasure/outandreturnDetail.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "分润收益",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "分润收益统计",
+            "icon": "&#xe61c;",
+            "href": "pages/moneyManagement/fenrunEarnings/incomeStatistics.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "databaseManagement": [
+      {
+        "title": "投资统计",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "投资总统计",
+            "icon": "&#xe61c;",
+            "href": "pages/databaseManagement/investStats/investStats/investStats.html",
+            "spread": false
+          },
+          {
+            "title": "投资明细",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/investStats/investDetail/investDetail.html",
+            "spread": false
+          },
+          {
+            "title": "标种投资",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/investStats/stdInvestment/stdInvestment.html",
+            "spread": false
+          },
+          {
+            "title": "已回款",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/investStats/reimbursement/reimbursement.html",
+            "spread": false
+          },
+          {
+            "title": "待收款",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/investStats/receivable/receivable.html",
+            "spread": false
+          },
+          {
+            "title": "投资排名",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/investStats/investRank/investRank.html",
+            "spread": false
+          },
+          {
+            "title": "投资额比例",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/investStats/investRatio/investRatio.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "借款统计",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "借款总统计",
+            "icon": "&#xe61c;",
+            "href": "pages/databaseManagement/loanStats/loanStats/loanStats.html",
+            "spread": false
+          },
+          {
+            "title": "借款人数",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/loanStats/borrowerNum/borrowerNum.html",
+            "spread": false
+          },
+          {
+            "title": "借款金额",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/loanStats/loanAmount/loanAmount.html",
+            "spread": false
+          },
+          {
+            "title": "已还款",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/loanStats/reimbursement/reimbursement.html",
+            "spread": false
+          },
+          {
+            "title": "待还款",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/loanStats/repayment/repayment.html",
+            "spread": false
+          },
+          {
+            "title": "逾期还款",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/loanStats/overdueRepayment/overdueRepayment.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "转出管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "转出统计",
+            "icon": "&#xe61c;",
+            "href": "pages/databaseManagement/transferManagement/transferManagement.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "平台统计",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "充值统计",
+            "icon": "&#xe61c;",
+            "href": "pages/databaseManagement/platformStats/rechargeStats/rechargeStats.html",
+            "spread": false
+          },
+          {
+            "title": "提现统计",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/platformStats/presentStats/presentStats.html",
+            "spread": false
+          },
+          {
+            "title": "用户统计",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/platformStats/userStats/userStats.html",
+            "spread": false
+          },
+          {
+            "title": "地域分布统计",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/platformStats/regionalStats/regionalStats.html",
+            "spread": false
+          },
+          {
+            "title": "用户属性统计",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/platformStats/userAttrStats/userAttrStats.html",
+            "spread": false
+          },
+          {
+            "title": "网站费用统计",
+            "icon": "&#xe609;",
+            "href": "pages/databaseManagement/platformStats/websiteCostStats/websiteCostStats.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "departmentManagement": [
+      {
+        "title": "员工管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "员工列表",
+            "icon": "&#xe61c;",
+            "href": "pages/departmentManagement/employeeList/employeeList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "提成统计",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "部门提成统计",
+            "icon": "&#xe61c;",
+            "href": "pages/departmentManagement/royaltyStats/deptRoyaltyStats/deptRoyaltyStats.html",
+            "spread": false
+          },
+          {
+            "title": "成员提成统计",
+            "icon": "&#xe609;",
+            "href": "pages/departmentManagement/royaltyStats/membershipStats/membershipStats.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "webSetting": [
+      {
+        "title": "PC官网",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "导航菜单",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/pcWebsite/navMenu/navMenu.html",
+            "spread": false
+          },
+          {
+            "title": "菜单栏目",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/pcWebsite/menuColumn/menuColumn.html",
+            "spread": false
+          },
+          {
+            "title": "调查投票",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/pcWebsite/poll/poll.html",
+            "spread": false
+          },
+          {
+            "title": "广告设置",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/pcWebsite/adSetting/adSetting.html",
+            "spread": false
+          },
+          {
+            "title": "底部版权",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/pcWebsite/btmCopyright/btmCopyright.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "帮助中心",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "帮助中心菜单",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/helpCenter/helpCenterMenu/helpCenterMenu.html",
+            "spread": false
+          },
+          {
+            "title": "帮助中心内容",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/helpCenter/helpCenterContent/helpCenterContent.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "惠宝风采",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "惠宝风采",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/beautyTreasure/beautyTreasure.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "APP",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "APP配置",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/app/appSetting/appSetting.html",
+            "spread": false
+          },
+          {
+            "title": "产品列表",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/app/productList/productList.html",
+            "spread": false
+          },
+          {
+            "title": "广告列表",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/app/adList/adList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "文章管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "新闻公告",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/articleaManagement/newsBulletin/newsBulletin.html",
+            "spread": false
+          },
+          {
+            "title": "政策法规",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/articleaManagement/policiesRegulation/policiesRegulation.html",
+            "spread": false
+          },
+          {
+            "title": "滚动新闻",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/articleaManagement/rollingNews/rollingNews.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "运营报告",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "运营数据",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/operatReport/operatData/operatData.html",
+            "spread": false
+          },
+          {
+            "title": "运营报告",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/operatReport/operatReport/operatReport.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "理财师",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "理财师描述",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/financialManager/financialManagerDes.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "保险设置",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "保险列表",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/insuranceSetting/insuranceList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "规则说明",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "规则列表",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/ruleDes/ruleList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "安全保障",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "平台介绍",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/safetyGuarantee/platformIntroduce.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "友情链接",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "友情链接分组",
+            "icon": "&#xe61c;",
+            "href": "pages/webSetting/friendshipLink/linkGroup/linkGroup.html",
+            "spread": false
+          },
+          {
+            "title": "友情链接列表",
+            "icon": "&#xe609;",
+            "href": "pages/webSetting/friendshipLink/linkList/linkList.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "marketingPromotion": [
+      {
+        "title": "产品营销",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "主推/秒杀产品",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/productMarketing/mainProduct/mainProduct.html",
+            "spread": false
+          },
+          {
+            "title": "体验金产品",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/productMarketing/experienceProduct/experienceProduct.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "礼券管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "红包管理",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/CouponManagement/redPacketManagement/redPacketManagement.html",
+            "spread": false
+          },
+          {
+            "title": "加息券管理",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/CouponManagement/interestRateManagement/interestRateManagement.html",
+            "spread": false
+          },
+          {
+            "title": "体验金管理",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/CouponManagement/experienceGoldManagement/experienceGoldManagement.html",
+            "spread": false
+          },
+          {
+            "title": "分享金管理",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/CouponManagement/sharingGoldManagement/sharingGoldManagement.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "产品兑换码",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "兑换码管理",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/productExchangeCode/exchangeCodeManagement/exchangeCodeManagement.html",
+            "spread": false
+          },
+          {
+            "title": "兑换明细",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/productExchangeCode/exchangeDetails/exchangeDetails.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "活动管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "APP活动列表",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/activityManagement/appActivityList/appActivityList.html",
+            "spread": false
+          },
+          {
+            "title": "PC活动列表",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/activityManagement/pcActivityList/pcActivityList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "推送管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "发布推送列表",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/pushManagement/pushList/pushList.html",
+            "spread": false
+          },
+          {
+            "title": "定时推送",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/pushManagement/timingPush/timingPush.html",
+            "spread": false
+          },
+          {
+            "title": "推送日志",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/pushManagement/pushLog/pushLog.html",
+            "spread": false
+          },
+          {
+            "title": "推送模板",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/pushManagement/pushModel/pushModel.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "短信管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "发布短信列表",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/smsManagement/smsList/smsList.html",
+            "spread": false
+          },
+          {
+            "title": "定时短信",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/smsManagement/timingSms/timingSms.html",
+            "spread": false
+          },
+          {
+            "title": "短信日志",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/smsManagement/smsLog/smsLog.html",
+            "spread": false
+          },
+          {
+            "title": "短信模板",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/smsManagement/smsModel/smsModel.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "积分商城",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "商品管理",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/integralMall/commodityManagement/commodityManagement.html",
+            "spread": false
+          },
+          {
+            "title": "订单管理",
+            "icon": "&#xe609;",
+            "href": "pages/marketingPromotion/integralMall/orderManagement/orderManagement.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "分享链接管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "链接信息",
+            "icon": "&#xe61c;",
+            "href": "pages/marketingPromotion/shareLinkManagement/linkInfo.html",
+            "spread": false
+          }
+        ]
+      }
+    ],
+    "systemSettings": [
+      {
+        "title": "系统设置",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "系统设置",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/systemSettings/systemSettings/systemSettings.html",
+            "spread": false
+          },
+          {
+            "title": "参数设置",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/systemSettings/paramSetting/paramSetting.html",
+            "spread": false
+          },
+          {
+            "title": "字典设置",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/systemSettings/dictionarySetting/dictionarySetting.html",
+            "spread": false
+          },
+          {
+            "title": "银行卡限额设置",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/systemSettings/bankSetting/bankSetting.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "每日福利",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "每日分享",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/dailyWelfare/dailyShare.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "提现设置",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "起提金额",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/presentSetting/foreheadAmount/foreheadAmount.html",
+            "spread": false
+          },
+          {
+            "title": "到账提示",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/presentSetting/accountPrompt/accountPrompt.html",
+            "spread": false
+          },
+          {
+            "title": "提现手续费",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/presentSetting/presentFee/presentFee.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "活期宝",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "收益设置",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/livingTreasure/livingTreasure.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "接口管理",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "支付接口",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/interfaceManagement/payInterface/payInterface.html",
+            "spread": false
+          },
+          {
+            "title": "短信接口",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/interfaceManagement/smsInterface/smsInterface.html",
+            "spread": false
+          },
+          {
+            "title": "推送接口",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/interfaceManagement/pushInterface/pushInterface.html",
+            "spread": false
+          },
+          {
+            "title": "合同接口",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/interfaceManagement/contractInterface/contractInterface.html",
+            "spread": false
+          },
+          {
+            "title": "认证接口",
+            "icon": "&#xe609;",
+            "href": "pages/systemSettings/interfaceManagement/autInterface/autInterface.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "系统管理员",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "管理员列表",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/systemAdmin/adminList.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "理财师",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "升级设置",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/financialManager/upgradeSettings.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "系统工具",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "系统工具",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/systemTools/systemTools.html",
+            "spread": false
+          }
+        ]
+      },
+      {
+        "title": "贷款设置",
+        "icon": "&#xe630;",
+        "href": "",
+        "spread": false,
+        "children": [
+          {
+            "title": "合同范本",
+            "icon": "&#xe61c;",
+            "href": "pages/systemSettings/loanSetting/contractModel.html",
+            "spread": false
+          }
+        ]
+      }
+    ]
+  }
+  
+  
+  
